@@ -1,0 +1,16 @@
+1675794142552	geckodriver	INFO	Listening on 127.0.0.1:47361
+1675794142594	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56239" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFSnHHd"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: no supported VAAPI profile found. (t=0.290482) [GFX1-]: glxtest: VA-API test failed: no supported VAAPI profile found.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675794142923	Marionette	INFO	Marionette enabled
+1675794142926	Marionette	INFO	Listening on port 40489
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 40489
+WebDriver BiDi listening on ws://127.0.0.1:56239
+1675794143051	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFSnHHd/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56239/devtools/browser/a8aa5d69-e208-4c8d-8560-f76fac1a04b1
+1675794144059	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1675794147648	Marionette	INFO	Stopped listening on port 40489
+JavaScript error: resource://services-settings/Utils.jsm, line 230: TypeError: NetworkError: Network request failed
